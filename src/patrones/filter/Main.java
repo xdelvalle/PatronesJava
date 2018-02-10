@@ -39,7 +39,6 @@ public class Main {
         printPersons(retire.meetCriteria(persons));
         System.out.println();
 
-
         System.out.println("Retire Males:");
         printPersons(retireMale.meetCriteria(persons));
         System.out.println();
