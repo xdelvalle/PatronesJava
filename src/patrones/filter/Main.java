@@ -26,6 +26,7 @@ public class Main {
         ICriteria retireOrFemale = new CriteriaOR(retire, female);
         ICriteria retireOrMale = new CriteriaOR(retire, male);
 
+
         System.out.println("Males:");
         printPersons(male.meetCriteria(persons));
         System.out.println();
